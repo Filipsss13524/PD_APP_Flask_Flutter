@@ -19,7 +19,7 @@ def upload_file():
     if 'file' not in request.files or 'text' not in request.form:
         return {'error': 'No file part and text'}, 400
 
-    dict_result = {'HC': 'Health Client', 'PD': 'Parkinson Disease'}
+    # dict_result = {'HC': 'Health Client', 'PD': 'Parkinson Disease'}
 
     file = request.files['file']
     text = request.form['text']
@@ -42,7 +42,7 @@ def upload_file():
     predicted_class = mod.classify_image(model, image_path, mod.transform)
     print(f'The predicted class is: {predicted_class}')
 
-    return jsonify({'message': 'File successfully uploaded', 'predicted_class': dict_result[predicted_class]}), 200
+    return jsonify({'message': 'File successfully uploaded', 'predicted_class': predicted_class}), 200
 
 
 @app.route('/api_image', methods=['POST'])
@@ -65,4 +65,4 @@ def get_image():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)

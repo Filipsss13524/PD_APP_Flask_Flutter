@@ -1,0 +1,168 @@
+{
+    "languageLabel": "Language: English",
+    "@languageLabel":{
+        "description": "The current language"
+    },
+
+    "title": "Detection of \n       vocal \n biomarkers",
+    "@title":{
+        "description": "Title of application"
+    },
+
+    "startHomeScreen": "Let's start",
+    "@startHomeScreen":{
+        "descroption": "Start button"
+
+    },
+
+    "personData": "Provide patient details",
+    "@personData": {
+        "description": "Patient details"
+    },
+
+    "name": "Name",
+    "@name": {
+        "description": "Patient name"
+    },
+
+    "here": "Write here",
+    "@here": {
+        "description": "Write here"
+    },
+
+    "requiredField": "This field is required",
+    "@requiredField": {
+        "description": "This field is required"
+    },
+
+    "surname": "Surname",
+    "@surname": {
+        "description": "Patient surname"
+    },
+
+    "dateOfBirth": "Date of birth",
+    "@dateOfBirth": {
+        "description": "Patient date of birth"
+    },
+
+    "selectDate": "Select date",
+    "@selectDate": {
+        "description": "Patient date of birth"
+    },
+    
+    "selectGender": "Select gender",
+    "@selectGender": {
+        "description": "Select gender of patient"
+    },
+
+    "man": "Male",
+    "@man": {
+        "description": "Male"
+    },
+
+    "woman": "Female",
+    "@woman": {
+        "description": "Female"
+    },
+
+    "makeRecord": "Make a record",
+    "@makeRecord": {
+        "description": "Make a record"
+    },
+
+    "task": "Task:",
+    "@task": {
+        "description": "Task:"
+    },
+
+    "taskDescription": "Please pronounce the vowel 'a' for as long as possible.",
+    "@taskDescription": {
+        "description": "task description"
+    },
+
+    "makeTest": "Approve and test",
+    "@makeTest": {
+        "description": "Approve and test"
+    },
+
+    "waitText": "The recording is being analyzed, wait!",
+    "@waitText": {
+        "description": "The recording is being analyzed, wait!"
+    },
+
+    "testResult": "Test result",
+    "@testResult": {
+        "description": "Test result"
+    },
+
+    "birth": "b.",
+    "@birth": {
+        "description": "born"
+    },
+
+    "spectrogramMel": "Spectrogram mel",
+    "@spectrogramMel": {
+        "description": "Spectrogram mel"
+    },
+
+    "backToMenu": "Back to menu",
+    "@backToMenu": {
+        "description": "Back to menu button"
+    },
+
+    "info": "Play Recording: \nTo review what has been recorded, click the 'Play' button and listen to the recording. \n \nNew Recording: \nIf a mistake occurred during the recording and you want to record a new voice sample, click the 'Start' button again to begin a new recording.",
+    "@info": {
+        "description": "Info recording"
+    },
+
+    "helpText": "Server not responding: wait or try the analysis again!",
+    "@helpText": {
+        "description": "Help Text while analyzed"
+    },
+
+    "error": "Error: ",
+    "@error": {
+        "description": "error"
+    },
+
+    "back": "Back",
+    "@back": {
+        "description": "back to audio screen"
+    },
+
+    "dataerrortext": "No data \nNo data was sent for analysis, go back and record again",
+    "@dataerrortext": {
+        "description": "PathNotFoundException"
+    },
+
+    "timeerrortext": "Timeout\nThe server is not responding, please go back and resend the recording for analysis",
+    "@timeerrortext": {
+        "description": "Connection timed out"
+    },
+
+    "serverIp": "Server IP Address",
+    "@serverIp": {
+        "description": "Server IP Address"
+    },
+
+    "serverhelp": "Please enter an IP address",
+    "@serverhelp": {
+        "description": "Help text from address"
+    },
+
+    "save": "Save",
+    "@save": {
+        "description": "save"
+    },
+
+    "savecomfirmed": "Save correctly",
+    "@savecomfirmed": {
+        "description": "Save connection confirmed"
+    },
+
+    "servervalid": "Enter a valid IP address",
+    "@servervalid": {
+        "description": "Incorect address"
+    }
+    
+}

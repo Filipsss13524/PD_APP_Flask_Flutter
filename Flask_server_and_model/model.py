@@ -10,6 +10,7 @@ from PIL import Image
 import os
 import timm
 import numpy as np
+import gc
 
 
 
@@ -23,6 +24,7 @@ def create_spectogram(spectogram_type, wav_path, file_path):
     plt.tight_layout()
     plt.savefig(file_path)
     plt.close()
+    gc.collect()
   elif spectogram_type.lower() == "classic":
     plt.rcParams["figure.figsize"] = [7.50, 3.50]
     plt.rcParams["figure.autolayout"] = True
